@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Formatter\Property;
+namespace AnthoDingo\VCard\Formatter\Property;
 
-use JeroenDesloovere\VCard\Property\Name;
+use AnthoDingo\VCard\Property\Name;
 
 final class NameFormatter extends NodeFormatter implements NodeFormatterInterface
 {

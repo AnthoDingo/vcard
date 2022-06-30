@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Property;
+namespace AnthoDingo\VCard\Property;
 
-use JeroenDesloovere\VCard\Exception\PropertyException;
-use JeroenDesloovere\VCard\Formatter\Property\EmailFormatter;
-use JeroenDesloovere\VCard\Formatter\Property\NodeFormatterInterface;
-use JeroenDesloovere\VCard\Parser\Property\EmailParser;
-use JeroenDesloovere\VCard\Parser\Property\NodeParserInterface;
-use JeroenDesloovere\VCard\Property\Parameter\Type;
+use AnthoDingo\VCard\Exception\PropertyException;
+use AnthoDingo\VCard\Formatter\Property\EmailFormatter;
+use AnthoDingo\VCard\Formatter\Property\NodeFormatterInterface;
+use AnthoDingo\VCard\Parser\Property\EmailParser;
+use AnthoDingo\VCard\Parser\Property\NodeParserInterface;
+use AnthoDingo\VCard\Property\Parameter\Type;
 
 final class Email implements PropertyInterface, NodeInterface
 {

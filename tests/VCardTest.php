@@ -2,31 +2,31 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\Tests\VCard;
+namespace AnthoDingo\Tests\VCard;
 
-use JeroenDesloovere\VCard\Formatter\Formatter;
-use JeroenDesloovere\VCard\Formatter\VcfFormatter;
-use JeroenDesloovere\VCard\Parser\Parser;
-use JeroenDesloovere\VCard\Parser\VcfParser;
-use JeroenDesloovere\VCard\Property\Address;
-use JeroenDesloovere\VCard\Property\Anniversary;
-use JeroenDesloovere\VCard\Property\Birthdate;
-use JeroenDesloovere\VCard\Property\Email;
-use JeroenDesloovere\VCard\Property\Gender;
-use JeroenDesloovere\VCard\Property\Logo;
-use JeroenDesloovere\VCard\Property\Name;
-use JeroenDesloovere\VCard\Property\Nickname;
-use JeroenDesloovere\VCard\Property\Note;
-use JeroenDesloovere\VCard\Property\Parameter\Kind;
-use JeroenDesloovere\VCard\Property\Parameter\Revision;
-use JeroenDesloovere\VCard\Property\Parameter\Type;
-use JeroenDesloovere\VCard\Property\Parameter\Version;
-use JeroenDesloovere\VCard\Property\Photo;
-use JeroenDesloovere\VCard\Property\Telephone;
-use JeroenDesloovere\VCard\Property\Title;
-use JeroenDesloovere\VCard\Property\Role;
-use JeroenDesloovere\VCard\Property\Url;
-use JeroenDesloovere\VCard\VCard;
+use AnthoDingo\VCard\Formatter\Formatter;
+use AnthoDingo\VCard\Formatter\VcfFormatter;
+use AnthoDingo\VCard\Parser\Parser;
+use AnthoDingo\VCard\Parser\VcfParser;
+use AnthoDingo\VCard\Property\Address;
+use AnthoDingo\VCard\Property\Anniversary;
+use AnthoDingo\VCard\Property\Birthdate;
+use AnthoDingo\VCard\Property\Email;
+use AnthoDingo\VCard\Property\Gender;
+use AnthoDingo\VCard\Property\Logo;
+use AnthoDingo\VCard\Property\Name;
+use AnthoDingo\VCard\Property\Nickname;
+use AnthoDingo\VCard\Property\Note;
+use AnthoDingo\VCard\Property\Parameter\Kind;
+use AnthoDingo\VCard\Property\Parameter\Revision;
+use AnthoDingo\VCard\Property\Parameter\Type;
+use AnthoDingo\VCard\Property\Parameter\Version;
+use AnthoDingo\VCard\Property\Photo;
+use AnthoDingo\VCard\Property\Telephone;
+use AnthoDingo\VCard\Property\Title;
+use AnthoDingo\VCard\Property\Role;
+use AnthoDingo\VCard\Property\Url;
+use AnthoDingo\VCard\VCard;
 use org\bovigo\vfs\vfsStream;
 use org\bovigo\vfs\vfsStreamDirectory;
 use PHPUnit\Framework\TestCase;
@@ -116,7 +116,7 @@ final class VCardTest extends TestCase
     }
 
     /**
-     * @expectedException \JeroenDesloovere\VCard\Exception\VCardException
+     * @expectedException \AnthoDingo\VCard\Exception\VCardException
      */
     public function testMultipleNotAllowedProperties(): void
     {
@@ -126,7 +126,7 @@ final class VCardTest extends TestCase
     }
 
     /**
-     * @expectedException \JeroenDesloovere\VCard\Exception\VCardException
+     * @expectedException \AnthoDingo\VCard\Exception\VCardException
      */
     public function testMultipleNotAllowedPropertyParameters(): void
     {
@@ -136,7 +136,7 @@ final class VCardTest extends TestCase
     }
 
     /**
-     * @expectedException \JeroenDesloovere\VCard\Exception\ParserException
+     * @expectedException \AnthoDingo\VCard\Exception\ParserException
      * @expectedExceptionMessage File "Lorem ipsum dolor sit amet, consectetur adipiscing elit." is not readable, or doesn't exist.
      */
     public function testParserCorruptVCard(): void
@@ -145,7 +145,7 @@ final class VCardTest extends TestCase
     }
 
     /**
-     * @expectedException \JeroenDesloovere\VCard\Exception\ParserException
+     * @expectedException \AnthoDingo\VCard\Exception\ParserException
      * @expectedExceptionMessage File "" is not readable, or doesn't exist.
      */
     public function testParserEmptyVCard(): void
@@ -154,7 +154,7 @@ final class VCardTest extends TestCase
     }
 
     /**
-     * @expectedException \JeroenDesloovere\VCard\Exception\ParserException
+     * @expectedException \AnthoDingo\VCard\Exception\ParserException
      */
     public function testParserGetFileContentsException(): void
     {

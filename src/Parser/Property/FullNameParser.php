@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Parser\Property;
+namespace AnthoDingo\VCard\Parser\Property;
 
-use JeroenDesloovere\VCard\Property\FullName;
-use JeroenDesloovere\VCard\Property\NodeInterface;
+use AnthoDingo\VCard\Property\FullName;
+use AnthoDingo\VCard\Property\NodeInterface;
 
 final class FullNameParser implements NodeParserInterface
 {

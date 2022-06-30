@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Parser\Property;
+namespace AnthoDingo\VCard\Parser\Property;
 
-use JeroenDesloovere\VCard\Property\NodeInterface;
-use JeroenDesloovere\VCard\Property\Note;
+use AnthoDingo\VCard\Property\NodeInterface;
+use AnthoDingo\VCard\Property\Note;
 
 final class NoteParser extends PropertyParser implements NodeParserInterface
 {

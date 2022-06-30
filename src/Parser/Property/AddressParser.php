@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Parser\Property;
+namespace AnthoDingo\VCard\Parser\Property;
 
-use JeroenDesloovere\VCard\Property\Address;
-use JeroenDesloovere\VCard\Property\NodeInterface;
-use JeroenDesloovere\VCard\Property\Parameter\Type;
+use AnthoDingo\VCard\Property\Address;
+use AnthoDingo\VCard\Property\NodeInterface;
+use AnthoDingo\VCard\Property\Parameter\Type;
 
 final class AddressParser extends PropertyParser implements NodeParserInterface
 {

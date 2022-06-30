@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Formatter;
+namespace AnthoDingo\VCard\Formatter;
 
-use JeroenDesloovere\VCard\Property\NodeInterface;
-use JeroenDesloovere\VCard\VCard;
+use AnthoDingo\VCard\Property\NodeInterface;
+use AnthoDingo\VCard\VCard;
 
 final class VcfFormatter implements FormatterInterface
 {

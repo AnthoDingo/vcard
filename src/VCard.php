@@ -2,31 +2,31 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard;
+namespace AnthoDingo\VCard;
 
-use JeroenDesloovere\VCard\Exception\VCardException;
-use JeroenDesloovere\VCard\Property\Address;
-use JeroenDesloovere\VCard\Property\Anniversary;
-use JeroenDesloovere\VCard\Property\Birthdate;
-use JeroenDesloovere\VCard\Property\Email;
-use JeroenDesloovere\VCard\Property\FullName;
-use JeroenDesloovere\VCard\Property\Gender;
-use JeroenDesloovere\VCard\Property\Logo;
-use JeroenDesloovere\VCard\Property\Name;
-use JeroenDesloovere\VCard\Property\Nickname;
-use JeroenDesloovere\VCard\Property\NodeInterface;
-use JeroenDesloovere\VCard\Property\Note;
-use JeroenDesloovere\VCard\Property\Parameter\Kind;
-use JeroenDesloovere\VCard\Property\Parameter\PropertyParameterInterface;
-use JeroenDesloovere\VCard\Property\Parameter\Revision;
-use JeroenDesloovere\VCard\Property\Parameter\Type;
-use JeroenDesloovere\VCard\Property\Parameter\Version;
-use JeroenDesloovere\VCard\Property\Photo;
-use JeroenDesloovere\VCard\Property\PropertyInterface;
-use JeroenDesloovere\VCard\Property\Role;
-use JeroenDesloovere\VCard\Property\Telephone;
-use JeroenDesloovere\VCard\Property\Title;
-use JeroenDesloovere\VCard\Property\Url;
+use AnthoDingo\VCard\Exception\VCardException;
+use AnthoDingo\VCard\Property\Address;
+use AnthoDingo\VCard\Property\Anniversary;
+use AnthoDingo\VCard\Property\Birthdate;
+use AnthoDingo\VCard\Property\Email;
+use AnthoDingo\VCard\Property\FullName;
+use AnthoDingo\VCard\Property\Gender;
+use AnthoDingo\VCard\Property\Logo;
+use AnthoDingo\VCard\Property\Name;
+use AnthoDingo\VCard\Property\Nickname;
+use AnthoDingo\VCard\Property\NodeInterface;
+use AnthoDingo\VCard\Property\Note;
+use AnthoDingo\VCard\Property\Parameter\Kind;
+use AnthoDingo\VCard\Property\Parameter\PropertyParameterInterface;
+use AnthoDingo\VCard\Property\Parameter\Revision;
+use AnthoDingo\VCard\Property\Parameter\Type;
+use AnthoDingo\VCard\Property\Parameter\Version;
+use AnthoDingo\VCard\Property\Photo;
+use AnthoDingo\VCard\Property\PropertyInterface;
+use AnthoDingo\VCard\Property\Role;
+use AnthoDingo\VCard\Property\Telephone;
+use AnthoDingo\VCard\Property\Title;
+use AnthoDingo\VCard\Property\Url;
 
 final class VCard
 {

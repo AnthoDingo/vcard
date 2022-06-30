@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Property;
+namespace AnthoDingo\VCard\Property;
 
-use JeroenDesloovere\VCard\Formatter\Property\NoteFormatter;
-use JeroenDesloovere\VCard\Formatter\Property\NodeFormatterInterface;
-use JeroenDesloovere\VCard\Parser\Property\NodeParserInterface;
-use JeroenDesloovere\VCard\Parser\Property\NoteParser;
-use JeroenDesloovere\VCard\Property\Value\StringValue;
+use AnthoDingo\VCard\Formatter\Property\NoteFormatter;
+use AnthoDingo\VCard\Formatter\Property\NodeFormatterInterface;
+use AnthoDingo\VCard\Parser\Property\NodeParserInterface;
+use AnthoDingo\VCard\Parser\Property\NoteParser;
+use AnthoDingo\VCard\Property\Value\StringValue;
 
 final class Note extends StringValue implements PropertyInterface, SimpleNodeInterface
 {

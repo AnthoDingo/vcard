@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Property;
+namespace AnthoDingo\VCard\Property;
 
-use JeroenDesloovere\VCard\Formatter\Property\RoleFormatter;
-use JeroenDesloovere\VCard\Formatter\Property\NodeFormatterInterface;
-use JeroenDesloovere\VCard\Parser\Property\RoleParser;
-use JeroenDesloovere\VCard\Parser\Property\NodeParserInterface;
-use JeroenDesloovere\VCard\Property\Value\StringValue;
+use AnthoDingo\VCard\Formatter\Property\RoleFormatter;
+use AnthoDingo\VCard\Formatter\Property\NodeFormatterInterface;
+use AnthoDingo\VCard\Parser\Property\RoleParser;
+use AnthoDingo\VCard\Parser\Property\NodeParserInterface;
+use AnthoDingo\VCard\Property\Value\StringValue;
 
 final class Role extends StringValue implements PropertyInterface, SimpleNodeInterface
 {

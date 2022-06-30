@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Property\Parameter;
+namespace AnthoDingo\VCard\Property\Parameter;
 
-use JeroenDesloovere\VCard\Exception\PropertyParameterException;
-use JeroenDesloovere\VCard\Formatter\Property\NodeFormatterInterface;
-use JeroenDesloovere\VCard\Formatter\Property\Parameter\KindFormatter;
-use JeroenDesloovere\VCard\Parser\Property\NodeParserInterface;
-use JeroenDesloovere\VCard\Parser\Property\Parameter\KindParser;
-use JeroenDesloovere\VCard\Property\SimpleNodeInterface;
+use AnthoDingo\VCard\Exception\PropertyParameterException;
+use AnthoDingo\VCard\Formatter\Property\NodeFormatterInterface;
+use AnthoDingo\VCard\Formatter\Property\Parameter\KindFormatter;
+use AnthoDingo\VCard\Parser\Property\NodeParserInterface;
+use AnthoDingo\VCard\Parser\Property\Parameter\KindParser;
+use AnthoDingo\VCard\Property\SimpleNodeInterface;
 
 /**
  * vCard defines "Kinds" to represent the types of objects to be represented by vCard.

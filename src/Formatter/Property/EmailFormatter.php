@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Formatter\Property;
+namespace AnthoDingo\VCard\Formatter\Property;
 
-use JeroenDesloovere\VCard\Property\Email;
+use AnthoDingo\VCard\Property\Email;
 
 final class EmailFormatter extends NodeFormatter implements NodeFormatterInterface
 {

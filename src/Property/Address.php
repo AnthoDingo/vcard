@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Property;
+namespace AnthoDingo\VCard\Property;
 
-use JeroenDesloovere\VCard\Exception\PropertyException;
-use JeroenDesloovere\VCard\Formatter\Property\AddressFormatter;
-use JeroenDesloovere\VCard\Formatter\Property\NodeFormatterInterface;
-use JeroenDesloovere\VCard\Parser\Property\AddressParser;
-use JeroenDesloovere\VCard\Parser\Property\NodeParserInterface;
-use JeroenDesloovere\VCard\Property\Parameter\Type;
+use AnthoDingo\VCard\Exception\PropertyException;
+use AnthoDingo\VCard\Formatter\Property\AddressFormatter;
+use AnthoDingo\VCard\Formatter\Property\NodeFormatterInterface;
+use AnthoDingo\VCard\Parser\Property\AddressParser;
+use AnthoDingo\VCard\Parser\Property\NodeParserInterface;
+use AnthoDingo\VCard\Property\Parameter\Type;
 
 final class Address implements PropertyInterface, NodeInterface
 {

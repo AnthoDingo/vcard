@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Property;
+namespace AnthoDingo\VCard\Property;
 
-use JeroenDesloovere\VCard\Formatter\Property\FullNameFormatter;
-use JeroenDesloovere\VCard\Formatter\Property\NodeFormatterInterface;
-use JeroenDesloovere\VCard\Parser\Property\FullNameParser;
-use JeroenDesloovere\VCard\Parser\Property\NodeParserInterface;
-use JeroenDesloovere\VCard\Property\Value\StringValue;
+use AnthoDingo\VCard\Formatter\Property\FullNameFormatter;
+use AnthoDingo\VCard\Formatter\Property\NodeFormatterInterface;
+use AnthoDingo\VCard\Parser\Property\FullNameParser;
+use AnthoDingo\VCard\Parser\Property\NodeParserInterface;
+use AnthoDingo\VCard\Property\Value\StringValue;
 
 final class FullName extends StringValue implements PropertyInterface, SimpleNodeInterface
 {

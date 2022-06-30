@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Parser;
+namespace AnthoDingo\VCard\Parser;
 
-use JeroenDesloovere\VCard\Exception\ParserException;
-use JeroenDesloovere\VCard\VCard;
+use AnthoDingo\VCard\Exception\ParserException;
+use AnthoDingo\VCard\VCard;
 
 final class Parser
 {

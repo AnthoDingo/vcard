@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Formatter\Property;
+namespace AnthoDingo\VCard\Formatter\Property;
 
-use JeroenDesloovere\VCard\Property\Photo;
+use AnthoDingo\VCard\Property\Photo;
 
 final class PhotoFormatter extends NodeFormatter implements NodeFormatterInterface
 {

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Property;
+namespace AnthoDingo\VCard\Property;
 
-use JeroenDesloovere\VCard\Formatter\Property\NodeFormatterInterface;
-use JeroenDesloovere\VCard\Formatter\Property\UrlFormatter;
-use JeroenDesloovere\VCard\Parser\Property\NodeParserInterface;
-use JeroenDesloovere\VCard\Parser\Property\UrlParser;
-use JeroenDesloovere\VCard\Property\Value\StringValue;
+use AnthoDingo\VCard\Formatter\Property\NodeFormatterInterface;
+use AnthoDingo\VCard\Formatter\Property\UrlFormatter;
+use AnthoDingo\VCard\Parser\Property\NodeParserInterface;
+use AnthoDingo\VCard\Parser\Property\UrlParser;
+use AnthoDingo\VCard\Property\Value\StringValue;
 
 final class Url extends StringValue implements PropertyInterface, SimpleNodeInterface
 {

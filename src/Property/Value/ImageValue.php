@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Property\Value;
+namespace AnthoDingo\VCard\Property\Value;
 
-use JeroenDesloovere\VCard\Exception\PropertyException;
+use AnthoDingo\VCard\Exception\PropertyException;
 
 class ImageValue
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Formatter\Property\Parameter;
+namespace AnthoDingo\VCard\Formatter\Property\Parameter;
 
-use JeroenDesloovere\VCard\Formatter\Property\SimpleNodeFormatter;
+use AnthoDingo\VCard\Formatter\Property\SimpleNodeFormatter;
 
 final class VersionFormatter extends SimpleNodeFormatter
 {

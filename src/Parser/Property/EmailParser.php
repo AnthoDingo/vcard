@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Parser\Property;
+namespace AnthoDingo\VCard\Parser\Property;
 
-use JeroenDesloovere\VCard\Property\Email;
-use JeroenDesloovere\VCard\Property\NodeInterface;
-use JeroenDesloovere\VCard\Property\Parameter\Type;
+use AnthoDingo\VCard\Property\Email;
+use AnthoDingo\VCard\Property\NodeInterface;
+use AnthoDingo\VCard\Property\Parameter\Type;
 
 final class EmailParser extends PropertyParser implements NodeParserInterface
 {

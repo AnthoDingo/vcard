@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\Tests\VCard\Property\Value;
+namespace AnthoDingo\Tests\VCard\Property\Value;
 
-use JeroenDesloovere\VCard\Property\Value\ImageValue;
+use AnthoDingo\VCard\Property\Value\ImageValue;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -31,7 +31,7 @@ final class ImageValueTest extends TestCase
     }
 
     /**
-     * @expectedException \JeroenDesloovere\VCard\Exception\PropertyException
+     * @expectedException \AnthoDingo\VCard\Exception\PropertyException
      * @expectedExceptionMessage The image you have provided is invalid.
      */
     public function testEmptyFile(): void
@@ -40,7 +40,7 @@ final class ImageValueTest extends TestCase
     }
 
     /**
-     * @expectedException \JeroenDesloovere\VCard\Exception\PropertyException
+     * @expectedException \AnthoDingo\VCard\Exception\PropertyException
      * @expectedExceptionMessage The image you have provided is invalid.
      */
     public function testEmptyImage(): void
@@ -49,7 +49,7 @@ final class ImageValueTest extends TestCase
     }
 
     /**
-     * @expectedException \JeroenDesloovere\VCard\Exception\PropertyException
+     * @expectedException \AnthoDingo\VCard\Exception\PropertyException
      * @expectedExceptionMessage The image you have provided is invalid.
      */
     public function testWrongFile(): void

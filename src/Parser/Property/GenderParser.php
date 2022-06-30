@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Parser\Property;
+namespace AnthoDingo\VCard\Parser\Property;
 
-use JeroenDesloovere\VCard\Property\Gender;
-use JeroenDesloovere\VCard\Property\NodeInterface;
+use AnthoDingo\VCard\Property\Gender;
+use AnthoDingo\VCard\Property\NodeInterface;
 
 final class GenderParser extends PropertyParser implements NodeParserInterface
 {

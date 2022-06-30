@@ -26,10 +26,10 @@ Since this is a WIP, we refer to the [test class](tests/VCardTest.php) to view m
 ### Basic example
 
 ```php
-use JeroenDesloovere\VCard\VCard;
-use JeroenDesloovere\VCard\Property\Name;
-use JeroenDesloovere\VCard\Formatter\Formatter;
-use JeroenDesloovere\VCard\Formatter\VcfFormatter;
+use AnthoDingo\VCard\VCard;
+use AnthoDingo\VCard\Property\Name;
+use AnthoDingo\VCard\Formatter\Formatter;
+use AnthoDingo\VCard\Formatter\VcfFormatter;
 
 $lastname = "Berg";
 $firstname = "Melroy";

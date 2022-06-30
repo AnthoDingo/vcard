@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Exception;
+namespace AnthoDingo\VCard\Exception;
 
-use JeroenDesloovere\VCard\Property\NodeInterface;
-use JeroenDesloovere\VCard\Property\Parameter\Kind;
-use JeroenDesloovere\VCard\Property\Parameter\PropertyParameterInterface;
-use JeroenDesloovere\VCard\Property\PropertyInterface;
-use JeroenDesloovere\VCard\VCard;
+use AnthoDingo\VCard\Property\NodeInterface;
+use AnthoDingo\VCard\Property\Parameter\Kind;
+use AnthoDingo\VCard\Property\Parameter\PropertyParameterInterface;
+use AnthoDingo\VCard\Property\PropertyInterface;
+use AnthoDingo\VCard\VCard;
 
 class VCardException extends \Exception
 {

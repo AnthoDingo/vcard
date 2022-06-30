@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Parser;
+namespace AnthoDingo\VCard\Parser;
 
-use JeroenDesloovere\VCard\Exception\ParserException;
-use JeroenDesloovere\VCard\Formatter\VcfFormatter;
-use JeroenDesloovere\VCard\Parser\Property\NodeParserInterface;
-use JeroenDesloovere\VCard\Property\NodeInterface;
-use JeroenDesloovere\VCard\VCard;
-use JeroenDesloovere\VCard\Property\Parameter\Version;
-use JeroenDesloovere\VCard\Property\Parameter\Kind;
+use AnthoDingo\VCard\Exception\ParserException;
+use AnthoDingo\VCard\Formatter\VcfFormatter;
+use AnthoDingo\VCard\Parser\Property\NodeParserInterface;
+use AnthoDingo\VCard\Property\NodeInterface;
+use AnthoDingo\VCard\VCard;
+use AnthoDingo\VCard\Property\Parameter\Version;
+use AnthoDingo\VCard\Property\Parameter\Kind;
 
 final class VcfParser implements ParserInterface
 {
-    /** @var NodeParserInterface[] - f.e. ['ADR' => JeroenDesloovere\VCard\Parser\Property\AddressParser] */
+    /** @var NodeParserInterface[] - f.e. ['ADR' => AnthoDingo\VCard\Parser\Property\AddressParser] */
     private $parsers = [];
 
     public function __construct()

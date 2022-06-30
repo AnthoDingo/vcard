@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace JeroenDesloovere\VCard\Parser;
+namespace AnthoDingo\VCard\Parser;
 
-use JeroenDesloovere\VCard\VCard;
+use AnthoDingo\VCard\VCard;
 
 interface ParserInterface
 {
