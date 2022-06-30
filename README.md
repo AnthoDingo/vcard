@@ -1,8 +1,9 @@
 # [WIP] VCard library
 
-<!--[![Latest Stable Version](http://img.shields.io/packagist/v/jeroendesloovere/vcard.svg)](https://packagist.org/packages/jeroendesloovere/vcard)-->
+Original repo from https://github.com/jeroendesloovere/vcard
+
+<!--[![Latest Stable Version](http://img.shields.io/packagist/v/jeroendesloovere/vcard.svg)](https://packagist.org/packages/anthodingo/vcard)-->
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/jeroendesloovere/vcard/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/jeroendesloovere/vcard.svg?branch=2.0.0-dev)](https://travis-ci.org/jeroendesloovere/vcard)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jeroendesloovere/vcard/badges/quality-score.png?b=2.0.0-dev)](https://scrutinizer-ci.com/g/jeroendesloovere/vcard/?branch=2.0.0-dev)
 
 > This VCard PHP class can generate a vCard version 4.0. .vcf file with one or more vCards in it. Parsing is also possible. OOP is our goal-focus, so every property has its own class.
@@ -14,7 +15,7 @@ Documentation about vCard 4.0:
 ## Installation
 
 ```bash
-composer require jeroendesloovere/vcard:dev-2.0.0-dev
+composer require anthodingo/vcard:dev-main
 ```
 > This will install the 2.0 WIP development version of vcard with [Composer](https://getcomposer.org)
 
